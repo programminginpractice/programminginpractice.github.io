@@ -1,10 +1,10 @@
 site:
   title: Becoming a Programmer
-  #start_page: the-big-picture::index.adoc
+  start_page: the-big-picture::index.adoc
 content:
   sources:
   - url: https://github.com/programminginpractice/bap101_the_big_picture
-    branches: [master]
+    branches: [main]
     start_path: docs
 ui:
   bundle:
@@ -15,6 +15,3 @@ ui:
     contents: |
       static_files: [ .nojekyll ]
   - path: .nojekyll
-git:
-  credentials:
-    contents: https://8cf525fe599634e61d46f0cdd323d577d12ab83d:@github.com    
